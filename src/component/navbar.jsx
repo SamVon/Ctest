@@ -1,14 +1,20 @@
 import React from 'react'
 import '../App.css'
+import '../event/scroll' 
 function navbar() {
 
     function toggleFunction() {
-        console.log('toggleFunction');
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
     }
-
 
     return (
         <div className="w3-top">
+
             <div className="w3-bar" id="myNavbar">
                 <a className="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="#" onClick={toggleFunction} title="Toggle Navigation Menu">
                     <i className="fa fa-bars"></i>
@@ -28,6 +34,8 @@ function navbar() {
                 <a href="#contact" className="w3-bar-item w3-button" onClick={toggleFunction}>CONTACT</a>
                 <a href="#" className="w3-bar-item w3-button">SEARCH</a>
             </div>
+
+            
         </div>
     )
 }
