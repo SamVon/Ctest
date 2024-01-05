@@ -16,7 +16,7 @@ function contact() {
                     <div className="w3-col m8 w3-panel">
                         <div className="w3-large w3-margin-bottom">
                             <i className="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> vientiane, Lao<br />
-                            <i className="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +856 94285085<br />
+                            <i className="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +856 2094285085<br />
                             <i className="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: samphtahinv@gmail.com<br />
                         </div>
                         <p>Swing by for a cup of <i className="fa fa-coffee"></i>, or leave me a note:</p>
