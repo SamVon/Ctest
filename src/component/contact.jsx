@@ -6,7 +6,7 @@ function contact() {
     return (
         <div>
             <div className="w3-content w3-container w3-padding-64" id="contact">
-                <h3 className="w3-center">WHERE I WORK</h3>
+                {/* <h3 className="w3-center">WHERE I WORK</h3> */}
                 <p className="w3-center"><em>I'd love your feedback!</em></p>
 
                 <div className="w3-row w3-padding-32 w3-section">

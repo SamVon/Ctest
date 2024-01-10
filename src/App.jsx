@@ -3,6 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+{/* import font awsome */}
+
+
+{/* import component*/}
 import Navbar from './component/navbar'
 import Header from './component/header'
 import Content from './component/context'
@@ -12,6 +16,7 @@ import Contentplio from './component/contentplio'
 import Contact from './component/contact'
 import PicContect from './component/piccontect'
 import Footer from './component/footer'
+
 
 function App() {
   const [count, setCount] = useState(0)
